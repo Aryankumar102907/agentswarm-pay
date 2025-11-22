@@ -14,6 +14,11 @@ export default {
     },
     extend: {
       colors: {
+        'navy-electric': 'hsl(var(--navy-electric))',
+        'dark-raspberry': 'hsl(var(--dark-raspberry))',
+        'hot-fuchsia': 'hsl(var(--hot-fuchsia))',
+        'blaze-orange': 'hsl(var(--blaze-orange))',
+        'amber-gold': 'hsl(var(--amber-gold))',
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
@@ -57,6 +62,8 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        success: "hsl(var(--success))",
+        warning: "hsl(var(--warning))",
       },
       borderRadius: {
         lg: "var(--radius)",
