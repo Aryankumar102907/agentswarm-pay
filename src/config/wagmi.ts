@@ -1,9 +1,13 @@
 import { getDefaultConfig } from '@rainbow-me/rainbowkit';
 import { arbitrumSepolia } from 'wagmi/chains';
+import { http } from 'wagmi';
 
 export const config = getDefaultConfig({
   appName: 'AgentSwarm Payment System',
-  projectId: 'a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6', // Demo project ID
+  projectId: '04cbc5e45a5cf4728a973d99ef545c43', // WalletConnect Cloud project ID
   chains: [arbitrumSepolia],
+  transports: {
+    [arbitrumSepolia.id]: http('https://sepolia-rollup.arbitrum.io/rpc'),
+  },
   ssr: false,
 });
