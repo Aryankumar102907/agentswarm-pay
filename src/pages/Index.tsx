@@ -34,7 +34,7 @@ const Index = () => {
                   <h1 className="text-3xl md:text-5xl font-black mb-2 bg-gradient-full bg-clip-text text-transparent">
                     AGENTSWARM
                   </h1>
-                  <p className="text-sm md:text-base font-bold">Autonomous Payment Infrastructure on Arbitrum Stylus</p>
+                  <p className="text-lg md:text-base font-bold">Autonomous Payment Infrastructure on Arbitrum Stylus</p>
                 </div>
                 <WalletButton />
               </div>
